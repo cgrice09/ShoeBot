@@ -1,0 +1,19 @@
+{
+  "name": "ShoeBot",
+  "description": "ShoeBot",
+  "version": "1.0.5",
+  "content_scripts": [{
+    "matches": ["http://www.adidas.com/*", "https://www.adidas.com/*"],
+    "js": ["jquery.min.js", "iwantyeezys.js"]
+  }],
+  "icons": {
+    "512": "shoe.png"
+  },
+  "browser_action": {
+    "default_title": "ShoeBot",
+    "default_popup": "options.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage"],
+  "manifest_version": 2
+}

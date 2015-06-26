@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YeezyBot Options</title>
+</head>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<style>
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	background-color:#FFFFFF;
+	width: 250px;
+	padding: 20px;
+}
+strong {
+	font-weight:bold;
+}
+</style>
+<body>
+
+	<form class="pure-form pure-form-stacked">
+	    <fieldset>
+	        <legend><strong>ShoeBot Settings</strong></legend>
+
+	        <label for="refresh_interval">Refresh Interval (ms):</label>
+	        <input type="text" id="refresh_interval" required>
+
+	        <label for="product_code">Product Code:</label>
+	        <input type="text" id="product_code" required>
+
+	        <label for="shoe_size">Shoe Size:</label>
+	        <input type="text" id="shoe_size" required>
+	    </fieldset>
+	</form>
+
+	<div>
+
+	<style scoped>
+
+			.button-success,
+			.button-error,
+			.button-warning,
+			.button-secondary {
+					color: white;
+					border-radius: 4px;
+					text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+			}
+
+			.button-success {
+					background: rgb(28, 184, 65); /* this is a green */
+			}
+
+			.button-error {
+					background: rgb(202, 60, 60); /* this is a maroon */
+			}
+
+			.button-warning {
+					background: rgb(223, 117, 20); /* this is an orange */
+			}
+
+			.button-secondary {
+					background: rgb(66, 184, 221); /* this is a light blue */
+			}
+
+	</style>
+
+	<button type="submit" class="pure-button pure-button-primary" id="save">Save</button>
+	<button type="submit" class="button-success pure-button" id="start">Start Bot</button>
+	</div>
+
+</body>
+</html>
+
+<script src="jquery.min.js"></script>
+<script src="options.js"></script>
