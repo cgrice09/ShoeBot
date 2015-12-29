@@ -3,7 +3,7 @@
   "description": "ShoeBot",
   "version": "1.0.5",
   "content_scripts": [{
-    "matches": ["http://www.adidas.com/*", "https://www.adidas.com/*"],
+    "matches": ["http://www.adidas.com/yeezy*", "https://www.adidas.com/yeezy*"],
     "js": ["jquery.min.js", "iwantyeezys.js"]
   }],
   "icons": {
