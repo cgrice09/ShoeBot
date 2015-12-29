@@ -7,7 +7,7 @@ chrome.storage.sync.get({
     loopFunction = setTimeout(function(items) {
         $(document).ready(
             chrome.storage.sync.get({
-                product_code: "AQ4832",
+                product_code: "AQ2661",
                 shoe_size: "670"
             }, function(items) {
                 var body = $("body");
