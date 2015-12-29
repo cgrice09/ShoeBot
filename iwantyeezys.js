@@ -51,7 +51,7 @@ chrome.storage.sync.get({
         // 	});
         // } else {
         // 	if (items.yeezy_or_tubular == "yeezy"){
-        // 		window.location.href = "http://www.adidas.com/us/yeezy-boost-350/AQ4832.html?forceSelSize=AQ4832_670";
+        // 		window.location.href = "http://www.adidas.com/us/yeezy-boost-350/AQ2661.html?forceSelSize=AQ2661_670";
         // 	} else if (items.yeezy_or_tubular == "tubular"){
         // 		window.location.href = "http://www.adidas.com/us/tubular-runner-primeknit-shoes/B25573.html?forceSelSize=B25573_670";
         // 	}
