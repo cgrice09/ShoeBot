@@ -8,7 +8,7 @@ $("#save").click(function(e) {
 
 	chrome.storage.sync.get({
 		refresh_interval: 1000,
-		product_code: "AQ4832",
+		product_code: "AQ2661",
 		shoe_size: "670"
 	}, function(items) {
 		$("#refresh_interval").val(items.refresh_interval);
@@ -18,7 +18,7 @@ $("#save").click(function(e) {
 
 $("#start").click(function(e) {
 	chrome.storage.sync.get({
-		product_code: "AQ4832",
+		product_code: "AQ2661",
 		shoe_size: "670"
 	}, function(items) {
 		OpenInNewTab(
